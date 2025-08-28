@@ -10,7 +10,6 @@ public class P9SortingArray {
 	}
 	
 	public static void qsHelper(int[] nums,int low,int high) {
-		//int n = nums.length;
 		if(low<high) {
 			int pivot = pivotIndex(nums,low,high);
 			qsHelper(nums, low, pivot-1);
